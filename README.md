@@ -1,4 +1,4 @@
-![image](https://github.com/tenny1225/VerticalTextView/image/m1.jpg)
+![image](https://github.com/tenny1225/VerticalTextView/raw/master/image/m1.jpg)
 ###用法1
 ```java
 <?xml version="1.0" encoding="utf-8"?>
@@ -19,7 +19,7 @@
 </LinearLayout>
 ```
 
-![image](https://github.com/tenny1225/VerticalTextView/image/m2.jpg)
+![image](https://github.com/tenny1225/VerticalTextView/raw/master/image/m2.jpg)
 ###用法2
 ```java
 <?xml version="1.0" encoding="utf-8"?>
