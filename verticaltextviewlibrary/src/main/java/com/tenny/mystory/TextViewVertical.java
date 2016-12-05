@@ -71,6 +71,7 @@ public class TextViewVertical extends View {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         int h = measureHeight(heightMeasureSpec);
+        //此处修复relativelayout下存在的异常
         if (height == -1) {
             height = h;
         } else {
