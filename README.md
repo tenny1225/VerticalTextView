@@ -1,0 +1,41 @@
+![image](https://github.com/tenny1225/VerticalTextView/image/m1.jpg)
+###用法1
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.tenny.mystory.TextViewVertical
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:v_start="left"
+        app:v_text="最开始的时候,你并不熟悉这座陌生的城市，你甚至摸得到内心那种无法融入的恐慌和彷徨，据说这种感觉叫漂泊！！"
+        app:v_textColor="#565656"
+        app:v_textSize="18dp" />
+</LinearLayout>
+```
+
+![image](https://github.com/tenny1225/VerticalTextView/image/m2.jpg)
+###用法2
+```java
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.tenny.mystory.TextViewVertical
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:v_start="right"
+        app:v_text="最开始的时候,你并不熟悉这座陌生的城市，你甚至摸得到内心那种无法融入的恐慌和彷徨，据说这种感觉叫漂泊！！"
+        app:v_textColor="#565656"
+        app:v_textSize="18dp" />
+</LinearLayout>
+```

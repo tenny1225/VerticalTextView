@@ -9,7 +9,7 @@
     <com.tenny.mystory.TextViewVertical
         android:layout_width="wrap_content"
         android:layout_height="300dp"
-        app:v_start="right"
+        app:v_start="left"
         app:v_text="最开始的时候,你并不熟悉这座陌生的城市，你甚至摸得到内心那种无法融入的恐慌和彷徨，据说这种感觉叫漂泊！！"
         app:v_textColor="#565656"
         app:v_textSize="18dp" />
