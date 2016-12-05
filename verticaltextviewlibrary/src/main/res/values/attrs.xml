@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewVertical">
+        <attr name="v_text" format="string" />
+        <attr name="v_textSize" format="dimension" />
+        <attr name="v_textColor" format="color" />
+        <attr name="v_start" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
