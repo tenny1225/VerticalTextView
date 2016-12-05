@@ -1,4 +1,4 @@
-package com.tenny.mystory;
+﻿package com.tenny.mystory;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -64,6 +64,7 @@ public class TextViewVertical extends View {
             paint.setTextSize(textSize);
         }
         paint.setColor(textColor);
+        paint.setAntiAlias(true);
         paint.setTextAlign(Paint.Align.CENTER);
     }
 
