@@ -1,3 +1,5 @@
+##android上可文字垂直显示的textview，可以设置文字起始方向
+
 ![image](https://github.com/tenny1225/VerticalTextView/raw/master/image/m1.png)
 ###用法1
 ```java
