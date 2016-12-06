@@ -35,7 +35,7 @@
     <com.tenny.mystory.TextViewVertical
         android:layout_width="wrap_content"
         android:layout_height="300dp"
-        app:v_cutChars=",|;"
+        app:v_cutChars=","   <!--多个分隔符用|隔开-->
         app:v_line="right"
         app:v_lineColor="#5555"
         app:v_lineWidth="0.5dp"
